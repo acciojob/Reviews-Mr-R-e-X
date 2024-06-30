@@ -54,7 +54,8 @@ const App = () => {
     }
   }
   return (
-    <div className="box">
+    <div>
+      {/* <div className="box"> */}
       <h1 id="review-heading">Our Reviews</h1>
 
       <Review
@@ -65,7 +66,7 @@ const App = () => {
         image={reviews[currIdx].image}
         text={reviews[currIdx].text}
       />
-      <div className="btns">
+      {/* <div className="btns"> */}
         <button className="prev-btn" onClick={() => prevReview()}>
           Previous
         </button>
@@ -78,7 +79,7 @@ const App = () => {
         <button className="next-btn" onClick={() => nextReview()}>
           Next
         </button>
-      </div>
+      {/* </div> */}
     </div>
   );
 };
