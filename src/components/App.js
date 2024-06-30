@@ -90,7 +90,7 @@ const App = () => {
             Next
           </button>
           <button className="random-btn" onClick={randomReview}>
-            Surprise Me
+            surprise me
           </button>
         </div>
       </div>
